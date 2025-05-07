@@ -2,10 +2,10 @@ rosbag2_bagfile_information:
   version: 5
   storage_identifier: sqlite3
   duration:
-    nanoseconds: 33163009148
+    nanoseconds: 20738731000
   starting_time:
-    nanoseconds_since_epoch: 1746596232875752897
-  message_count: 4305
+    nanoseconds_since_epoch: 1746597387049750579
+  message_count: 2687
   topics_with_message_count:
     - topic_metadata:
         name: /events/write_split
@@ -30,19 +30,19 @@ rosbag2_bagfile_information:
         type: geometry_msgs/msg/Twist
         serialization_format: cdr
         offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 149
+      message_count: 83
     - topic_metadata:
         name: /turtle1/color_sensor
         type: turtlesim/msg/Color
         serialization_format: cdr
         offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 2073
+      message_count: 1297
     - topic_metadata:
         name: /turtle1/pose
         type: turtlesim/msg/Pose
         serialization_format: cdr
         offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 2073
+      message_count: 1297
   compression_format: ""
   compression_mode: ""
   relative_file_paths:
@@ -50,7 +50,7 @@ rosbag2_bagfile_information:
   files:
     - path: turtle_sim_sample_0.db3
       starting_time:
-        nanoseconds_since_epoch: 1746596232875752897
+        nanoseconds_since_epoch: 1746597387049750579
       duration:
-        nanoseconds: 33163009148
-      message_count: 4305
+        nanoseconds: 20738731000
+      message_count: 2687
